@@ -1,6 +1,6 @@
 <x-layout>
     <x-mother>
-        <div class=" space-y-10">
+        <div class=" w-full space-y-10">
             <x-section>
                 <x-section-heading>Zuco Cinemas</x-section-heading>
                 <x-card-body>
