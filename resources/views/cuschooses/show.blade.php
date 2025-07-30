@@ -108,8 +108,8 @@
                                     </select>
                                 </div>
                             </div>
-                            <div class="w-30 sm:w-50">
-                                <img class="w-full rounded-2xl" src="http://picsum.photos/seed/{{ rand(0, 10000) }}/200/300" alt="Movie">
+                            <div class="w-30 flex justify-center items-center sm:w-50">
+                                <img class="w-full rounded-2xl" src="{{ asset('storage/' . $schedule->movie->image) }}" alt="Movie">
                             </div>
                         </div>
 
